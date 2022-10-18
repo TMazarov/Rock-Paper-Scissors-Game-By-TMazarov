@@ -33,7 +33,8 @@ while True:
               f"--------------------\n"
               f"Player Wins: {player_wins}\n"
               f"Computer Wins: {computer_wins}\n"
-              f"Draws: {draws}\n" "--------------------")
+              f"Draws: {draws}\n" 
+              f"--------------------")
         break
     else:
         raise SystemExit("Invalid Input! Please Try Again!")
