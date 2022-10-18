@@ -18,7 +18,8 @@ print(f"Welcome to Rock-Paper-Scissor Game!\n"
       f"--------------------")
 
 while True:
-    player_choice = input("Choice: ")
+    choice = input("Choice: ")
+    player_choice = choice.upper()
 
     if player_choice == "R":
         player_choice = rock
@@ -27,7 +28,8 @@ while True:
     elif player_choice == "S":
         player_choice = scissors
     elif player_choice == "E":
-        print(f"Thank you for playing Rock-Paper_Scissor! Your result is below!\n"
+        print(f"--------------------\n"
+              f"Thank you for playing Rock-Paper_Scissor! Your result is below!\n"
               f"--------------------\n"
               f"Player Wins: {player_wins}\n"
               f"Computer Wins: {computer_wins}\n"
